@@ -4,7 +4,7 @@
 int main(){
     int matrix[SIZE][SIZE];
     char func;
-    printf("Enter A to enter matrix values, Enter B to to check if there is a path, enter C to get the shortest path, enter D or Ctrl+Z to exit:\n");
+    printf("Enter A to enter matrix values, Enter B to to check if there is a path, enter C to get the shortest path, enter D or Ctrl+Z to exit:");
     while(1){
         scanf("%c ",&func);
         if(func==EOF || func=='D')
