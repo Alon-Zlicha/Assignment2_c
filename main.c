@@ -16,17 +16,17 @@ int main(){
             int i, j;
             scanf("%d %d", &i,&j);
             if(isPath(matrix,i,j)!=0){
-                printf("\nTrue");
+                printf("True\n");
             }
             else{
-                printf("\nFalse");
+                printf("False\n");
             }
         }
         if(func=='C'){
             int i,j,s_p;
             scanf("%d %d", &i,&j);
             s_p=shortestPath(matrix,i,j);
-            printf("\n%d",s_p);
+            printf("%d\n",s_p);
         }
     } 
     return 0;
