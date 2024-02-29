@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "my_mat.h"
 
-#define INFINITY 99999999
+#define INFINITY 999999999
 
 void getMatrixValues(int matrix[][SIZE] ){
     for(int i=0;i<SIZE;i++){
