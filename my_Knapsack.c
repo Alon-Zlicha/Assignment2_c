@@ -16,8 +16,9 @@ int max(int a,int b){
     }
     return b;
 }
-
-int knapsack(int weights[],int values[],int selected_bool[]){
+/*The function gets arrays/pointers so if we change the values of the arrays in the function we change 
+the original arrays.We solve the knapsack problem by using dynamic programing.*/
+int knapsack(int weights[],int values[],int selected_bool[]){ 
     int dp[SIZE+1][MAX_WEIGHT+1]={0};
     for(int i=0;i<SIZE+1;i++){
         for(int j=0;j<MAX_WEIGHT+1;j++){
